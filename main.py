@@ -24,7 +24,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 
-data = pd.read_csv("Training_Essay_Data.csv")
+data = pd.read_csv("data.csv")
 
 data.head()
 
