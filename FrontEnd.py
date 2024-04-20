@@ -18,8 +18,9 @@ def main():
 
     # Input text box for user to enter text
     user_input = st.text_area("Enter the text you want to analyze", "")
-    data = preprocess_text(preprocess_text)
-    print(data)
+    if user_input != "":
+        data = preprocess_text(preprocess_text)
+        print(data)
 
 
 
