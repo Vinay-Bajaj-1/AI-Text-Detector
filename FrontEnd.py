@@ -41,6 +41,7 @@ def main():
     user_input = st.text_area("Enter the text you want to analyze", "")
     if user_input != "":
         data = preprocess_text(preprocess_text)
+        print(type(data))
         print(data)
 
 
