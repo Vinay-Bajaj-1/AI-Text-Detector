@@ -26,7 +26,7 @@ nltk.download('wordnet')
 
 data = pd.read_csv("data.csv")
 
-data.head()
+
 
 plt.bar(x = ['1', '0'], height = data['generated'].value_counts())
 
