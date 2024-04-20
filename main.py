@@ -24,18 +24,16 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 
-data = pd.read_csv("Training_Essay_Data.csv")
+data = pd.read_csv("AI-TEXT-DETECTOR/Training_Essay_Data.csv")
 
-# %%
 data.head()
 
-# %%
 plt.bar(x = ['1', '0'], height = data['generated'].value_counts())
 
-# %%
+
 data.columns
 
-# %%
+
 # Function for text preprocessing
 def preprocess_text(text):
     # Convert text to lowercase
@@ -56,12 +54,9 @@ def preprocess_text(text):
 
 
 
-# %%
+
 # Preprocess text data
 data['processed_text'] = data['text'].apply(preprocess_text)
-
-# %%
-data.head()
 
 # %%
 X = data['processed_text']
