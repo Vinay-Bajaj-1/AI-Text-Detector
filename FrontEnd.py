@@ -4,7 +4,7 @@ import pandas as pd
 
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
-from main import preprocess_text
+#from main import preprocess_text
 
 # Load the trained model and vectorizer
 model = joblib.load('lr_model.pkl')
