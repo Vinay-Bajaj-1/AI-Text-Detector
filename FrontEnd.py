@@ -7,8 +7,8 @@ import joblib
 #from main import preprocess_text
 
 # Load the trained model and vectorizer
-model = joblib.load('lr_model.pkl')
-vectorizer = joblib.load('lr_vectorizer.pkl')
+'''model = joblib.load('lr_model.pkl')
+vectorizer = joblib.load('lr_vectorizer.pkl')'''
 
 
 
