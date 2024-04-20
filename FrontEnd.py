@@ -8,7 +8,7 @@ import joblib
 
 # Load the trained model and vectorizer
 model = joblib.load('lr_model.pkl')
-#vectorizer = joblib.load('lr_vectorizer.pkl')'''
+vectorizer = joblib.load('lr_vectorizer.pkl')
 
 
 
