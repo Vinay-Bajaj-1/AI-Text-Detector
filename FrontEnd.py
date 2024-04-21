@@ -123,6 +123,7 @@ if pred :
         st.image('the-rock-rock.gif')
     else:
         col1.write("The text is human-written.")
+        st.image('cat.gif')
 
 
 st.markdown(
