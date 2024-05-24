@@ -4,9 +4,9 @@ Overview
 Welcome to the AI Essay Detection System! This project focuses on creating an efficient and robust system for detecting essays using advanced feature engineering methods and machine learning models. Our approach utilizes three feature engineering techniques: cosine similarity, n-grams, and bag of words. We have implemented two machine learning models: logistic regression and neural networks, achieving impressive results with both models.
 
 Team Members
-Vinay Bajaj
-Saniddha Ghosh Dastidar
-Tushar Khurana
+1. Vinay Bajaj
+2. Saniddha Ghosh Dastidar
+3. Tushar Khurana
 
 Features
 1. Cosine Similarity: Measures the cosine of the angle between two vectors, providing a similarity score.
